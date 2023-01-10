@@ -6,10 +6,12 @@
     --bg-color: #fca5a5;
     --typewriterSpeed: 2s;
     --typewriterCharacters: 24;
-    --ptypewriterSpeed: 3s;
-    --ptypewriterCharacters:120;
+    /* --ptypewriterSpeed: 3s;
+    --ptypewriterCharacters:120; */
   }
-  
+body {
+    font-family: "Source Code Pro", monospace;
+}
   #typewriter {
     font-size: 30px;
     position: relative;
@@ -56,49 +58,6 @@
     }
   }
 
-  #p-typewriter {
-    font-size: 10px;
-    position: relative;
-    font-family: "Source Code Pro", monospace;
-    position: relative;
-    /* width: max-content;
-    color: black; */
-    /* word-break: break-all;
-    word-wrap: break-word; */
-    /* width: 50%; */
-    white-space: normal;
-  }
-  
-  #p-typewriter::before,
-  #p-typewriter::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    
-  }
-  
-  #p-typewriter::before {
-    background: var(--bg-color);
-    animation: p-typewriter var(--ptypewriterSpeed)
-      steps(var(--ptypewriterCharacters)) 1s forwards;
-  }
-  
-  @keyframes p-typewriter {
-    to {
-      left: 100%;
-    }
-  }
-  
-  @keyframes blink {
-    to {
-      background: transparent;
-    }
-  }
-
 #subheader {
    
     font-family: 'Courier New', monospace;
@@ -110,23 +69,7 @@
 
 }
 
-@media screen {
-    .box-paragraph {
-        border: 1px solid black;
-        padding: 10px;
-        word-break: break-all;
-        word-wrap: break-word;
-        width: 50%;
-        white-space: normal;
-        
-    }
-    
-}
 
 .my-chart {
     padding-bottom: 20px;
-}
-
-#test {
-    border-radius: 50%;
 }

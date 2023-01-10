@@ -4,17 +4,19 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
+
+// import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
-    <main className="text-gray-400 bg-red-300 body-font">
+    <main className="text-black bg-red-300 body-font">
       <Navbar />
       <About />
       <Projects />
       <Skills />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
     </main>
   );
 }
+

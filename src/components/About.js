@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" /> I love to build amazing
             apps.
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-black">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
             laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
             Laborum, voluptas natus?

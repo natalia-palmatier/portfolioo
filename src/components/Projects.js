@@ -8,13 +8,11 @@ export default function Projects() {
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4 text-purple-400" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-black">
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-black">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            facilis repellat ab cupiditate alias vero aliquid obcaecati quisquam
-            fuga dolore.
+          These are a few examples of my work, showcasing a range of projects I have built. For a more extensive look at my work, please check out my Github profile.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

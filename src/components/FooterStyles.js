@@ -40,7 +40,7 @@ export const Row = styled.div`
 `;
 
 export const FooterLink = styled.a`
-    color: #fff;
+    color: black;
     margin-bottom: 20px;
     font-size: 18px;
     text-decoration: none;
@@ -51,9 +51,16 @@ export const FooterLink = styled.a`
     }
 `;
 
-export const Heading = styled.p`
+export const Heading = styled.a`
     font-size: 24px;
-    color: #fff;
+    color: black;
     margin-bottom: 40px;
     font-weight: bold;
+    // width: 20%;
+
+    &:hover {
+        color: green;
+        transition: 200ms ease-in;
+    }
 `;
+

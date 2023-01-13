@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser';
 export const Contact = () => {
   const form = useRef();
 
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -23,7 +24,9 @@ export const Contact = () => {
           console.log(error.text);
       }
     );
+    e.target.reset()
   };
+
 
   return (
     <section id="contact" className="relative">
@@ -56,13 +59,28 @@ export const Contact = () => {
           />
         </div>
         <div className="relative mb-4">
-          <label htmlFor="email" className="leading-7 text-sm text-black">
+          {/* <label htmlFor="email" className="leading-7 text-sm text-black">
+            Email
+          </label> */}
+          <input
+            type="hidden"
+            value="nataliapalmatier@protonmail.com"
+            id="email"
+            name="user_email"
+            className="w-full bg-red-200 rounded border border-gray-700 focus:border-purple-200 focus:ring-2 focus:ring-purple-200 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            // onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        <div className="relative mb-4">
+          <label
+            htmlFor="email"
+            className="leading-7 text-sm text-black">
             Email
           </label>
           <input
-            type="email"
+            type="text"
             id="email"
-            name="user_email"
+            name="their_email"
             className="w-full bg-red-200 rounded border border-gray-700 focus:border-purple-200 focus:ring-2 focus:ring-purple-200 text-base outline-none text-black py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             // onChange={(e) => setEmail(e.target.value)}
           />
@@ -80,7 +98,10 @@ export const Contact = () => {
             // onChange={(e) => setMessage(e.target.value)}
           />
         </div>
+        
+
         <button
+          href="#about"
           type="submit"
           value="Send"
           className="text-black bg-purple-300 border-0 py-2 px-6 focus:outline-none hover:bg-purple-200 rounded text-lg">

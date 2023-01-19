@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Interactive Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project serves as a portfolio for some of my coding projects, as well as providing access to my LinkedIn, email, GitHub, and written articles.
 
-## Available Scripts
+## Functionality
 
-In the project directory, you can run:
+In the project, there is an:
 
-### `yarn start`
+### About me section
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Reads: I am a software engineer with 3 years of experience in the industry. Throughout my career, I have had the opportunity to work on a variety of projects, and enjoy anything challenging that requires deeper thought. I am always striving to improve and deliver high-quality products. One could even say that I'm ~ committed ~
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+### Github Contribution graph 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Coutesy of: 2016rshah's chart API. Read more about it here: https://ghchart.rshah.org/
 
-### `yarn build`
+### Past Work
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Displayed are 4 projects that you can also find on my github. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Skills Section
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+A small window into some of my technological skills
 
-### `yarn eject`
+### Contact Me Page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+A fully functional contact page that will refresh input once you click submit.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Resources Used: 
 
-## Learn More
+[Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Rshah's contribution API: [Github Contribution Chart API](https://ghchart.rshah.org/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Connect with me: 
 
-### Code Splitting
+Medium Articles I've written: [https://medium.com/@nataliap_51590](https://medium.com/@nataliap_51590)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+My Linkedin: [https://www.linkedin.com/in/natalia-palmatier/](https://www.linkedin.com/in/natalia-palmatier/)
 
-### Analyzing the Bundle Size
+Email Me: [https://www.cloudformdata.com/#contact](https://www.cloudformdata.com/#contact)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Visit my live portfolio here:
 
-### Making a Progressive Web App
+My Website: [[https://www.cloudformdata.com]([https://www.cloudformdata.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,35 +1,35 @@
 export const projects = [
   {
-    title: "React Reserve",
+    title: "Kawaii Twitter",
     subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./twittergif.gif",
-    link: "https://reactbootcamp.com",
+      "This is a re-creation of the popular social media platform, Twitter. It includes many of the core functionalities of the original site such as posting tweets, following other users, and direct messaging.",
+    image: "./twitter2.gif",
+    link: "https://github.com/natalia-codes/kawaii_application",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "E-com website",
+    subtitle: "MERN Stack",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
+      "This sticker website boasts a minimalist design and employs technologies like JavaScript, the Document Object Model, URL routing, MongoDB, Node.js for web APIs, and MongoDB for database modeling.",
+    image: "./ecom.gif",
+    link: "https://github.com/natalia-codes/e-commerceWebsite",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Mood App",
+    subtitle: "Python and Kvlang",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+      "With this compact mood app, simply input your current emotion and receive an uplifting quote that aligns with your mood.",
+    image: "./happy.gif",
+    link: "https://github.com/natalia-codes/enlightenMe-MobileApp",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Unbeatable Tic-Tac-Toe Game",
+    subtitle: "Minimax Algorithm",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "Play against an unbeatable computer! The best that you can do is tie. There is an option for two players too if the computer gets annoying.",
+    image: "./tttgame.gif",
+    link: "https://github.com/natalia-codes/games",
   },
 ];
 
